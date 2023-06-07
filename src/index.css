@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-black;
+    @apply font-thin;
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+
+  body {
+    @apply bg-gray-100;
+  }
+  
+  .container {
+    @apply mx-auto;
+    @apply px-4;
+    @apply max-w-7xl;
+  }
+  
+  .container-fluid {
+    @apply mx-auto;
+    @apply px-4;
+    @apply max-w-full;
+  }
+  
+  .container-full {
+    @apply mx-auto;
+    @apply px-4;
+    @apply max-w-full;
+  }
+
+  .container-full-width {
+    @apply mx-auto;
+    @apply px-4;
+    @apply max-w-full;
+  }
+
+}
